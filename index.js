@@ -62,7 +62,7 @@ export const eververseCategoryBanners = {
     GhostShells: "<:GhostShells1:752285102847033396><:GhostShells2:752285124019879946>",
     Vehicles: "<:Vehicles1:752285229292716052><:Vehicles2:752285242102120549>",
 };
-export const classIconsByName = {
+export const classesByName = {
     hunter: "<:hunter:807240641808564234>",
     titan: "<:titan:807240673262305310>",
     warlock: "<:warlock:807240697220300800>",
@@ -150,7 +150,7 @@ export const statsByHash = {
     144602215: statsByName.intellect,
     4244567218: statsByName.strength,
 };
-export const elementEmojisByDamageType = {
+export const elementsByDamageType = {
     [0 /* None */]: "",
     [1 /* Kinetic */]: elementsByName.kinetic,
     [2 /* Arc */]: elementsByName.arc,
@@ -159,9 +159,9 @@ export const elementEmojisByDamageType = {
     [5 /* Raid */]: "",
     [6 /* Stasis */]: elementsByName.stasis,
 };
-export const classEmojisByDestinyClass = {
+export const classesByDestinyClass = {
     [3 /* Unknown */]: "❔",
-    [0 /* Titan */]: classIconsByName.titan,
-    [1 /* Hunter */]: classIconsByName.hunter,
-    [2 /* Warlock */]: classIconsByName.warlock,
+    [0 /* Titan */]: classesByName.titan,
+    [1 /* Hunter */]: classesByName.hunter,
+    [2 /* Warlock */]: classesByName.warlock,
 };

@@ -70,7 +70,7 @@ export const eververseCategoryBanners = {
   Vehicles: "<:Vehicles1:752285229292716052><:Vehicles2:752285242102120549>",
 };
 
-export const classIconsByName = {
+export const classesByName = {
   hunter: "<:hunter:807240641808564234>",
   titan: "<:titan:807240673262305310>",
   warlock: "<:warlock:807240697220300800>",
@@ -169,7 +169,7 @@ export const statsByHash: Record<string | number, string> = {
   4244567218: statsByName.strength,
 };
 
-export const elementEmojisByDamageType: Record<DamageType, string> = {
+export const elementsByDamageType: Record<DamageType, string> = {
   [DamageType.None]: "",
   [DamageType.Kinetic]: elementsByName.kinetic,
   [DamageType.Arc]: elementsByName.arc,
@@ -179,9 +179,9 @@ export const elementEmojisByDamageType: Record<DamageType, string> = {
   [DamageType.Stasis]: elementsByName.stasis,
 };
 
-export const classEmojisByDestinyClass: Record<DestinyClass, string> = {
+export const classesByDestinyClass: Record<DestinyClass, string> = {
   [DestinyClass.Unknown]: "❔",
-  [DestinyClass.Titan]: classIconsByName.titan,
-  [DestinyClass.Hunter]: classIconsByName.hunter,
-  [DestinyClass.Warlock]: classIconsByName.warlock,
+  [DestinyClass.Titan]: classesByName.titan,
+  [DestinyClass.Hunter]: classesByName.hunter,
+  [DestinyClass.Warlock]: classesByName.warlock,
 };

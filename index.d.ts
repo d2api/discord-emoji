@@ -8,7 +8,7 @@ export declare const eververseCategoryBanners: {
     GhostShells: string;
     Vehicles: string;
 };
-export declare const classIconsByName: {
+export declare const classesByName: {
     hunter: string;
     titan: string;
     warlock: string;
@@ -82,5 +82,5 @@ export declare const armorSlotsByBucketHash: {
 };
 export declare const statsByEnDisplayName: Record<string, string>;
 export declare const statsByHash: Record<string | number, string>;
-export declare const elementEmojisByDamageType: Record<DamageType, string>;
-export declare const classEmojisByDestinyClass: Record<DestinyClass, string>;
+export declare const elementsByDamageType: Record<DamageType, string>;
+export declare const classesByDestinyClass: Record<DestinyClass, string>;
