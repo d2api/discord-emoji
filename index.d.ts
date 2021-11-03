@@ -73,13 +73,7 @@ export declare const enemyFactions: {
     cabal: string;
     scorn: string;
 };
-export declare const armorSlotsByBucketHash: {
-    3448274439: string;
-    3551918588: string;
-    14239492: string;
-    20886954: string;
-    1585787867: string;
-};
+export declare const armorSlotsByBucketHash: Record<string | number, string>;
 export declare const statsByEnDisplayName: Record<string, string>;
 export declare const statsByHash: Record<string | number, string>;
 export declare const elementsByDamageType: Record<DamageType, string>;

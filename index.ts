@@ -143,7 +143,7 @@ export const enemyFactions = {
   scorn: "<:scorn:815932247727276052>",
 };
 
-export const armorSlotsByBucketHash = {
+export const armorSlotsByBucketHash: Record<string | number, string> = {
   3448274439: armorSlots.helmet,
   3551918588: armorSlots.gauntlets,
   14239492: armorSlots.chestarmor,
