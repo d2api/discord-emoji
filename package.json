@@ -1,11 +1,17 @@
 {
-	"name": "d2api/discord-emoji",
-	"version": "0.0.1",
-	"main": "./index.js",
-	"types": "./index.d.ts",
-	"exports": {
-		".": "./index.js",
-	},
-	"type": "module",
-	"license": "UNLICENSED",
+  "name": "d2-discord-emoji",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "bungie-api-ts": "^4.11.0"
+  }
 }
