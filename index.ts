@@ -1,7 +1,7 @@
 import {
   DamageType,
   DestinyClass,
-} from "./node_modules/bungie-api-ts/destiny2/interfaces";
+} from "bungie-api-ts/destiny2/interfaces";
 
 export const loreBooksByHash: Record<string | number, string> = {
   2637550529: "<:ADriftersGambit:804831703456546817>",

@@ -1,4 +1,4 @@
-import { DamageType, DestinyClass } from "./node_modules/bungie-api-ts/destiny2/interfaces";
+import { DamageType, DestinyClass } from "bungie-api-ts/destiny2/interfaces";
 export declare const loreBooksByHash: Record<string | number, string>;
 export declare const eververseCategoryBanners: {
     Ornaments: string;
