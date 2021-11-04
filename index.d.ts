@@ -78,3 +78,14 @@ export declare const statsByEnDisplayName: Record<string, string>;
 export declare const statsByHash: Record<string | number, string>;
 export declare const elementsByDamageType: Record<DamageType, string>;
 export declare const classesByDestinyClass: Record<DestinyClass, string>;
+export declare const itemTypes: {
+    armor: string;
+    consumables: string;
+    cosmetics: string;
+    emblem: string;
+    emote: string;
+    ghostshell: string;
+    mods: string;
+    shaders: string;
+    weapons: string;
+};

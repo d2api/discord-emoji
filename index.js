@@ -165,3 +165,14 @@ export const classesByDestinyClass = {
     [1 /* Hunter */]: classesByName.hunter,
     [2 /* Warlock */]: classesByName.warlock,
 };
+export const itemTypes = {
+    armor: "<:armor:804934783658229801>",
+    consumables: "<:consumables:804934690099953694>",
+    cosmetics: "<:cosmetics:804934747833892874>",
+    emblem: "<:emblem:809411150239629342>",
+    emote: "<:emote:900674815973802014>",
+    ghostshell: "<:ghostshell:905875425195081758>",
+    mods: "<:mods:804934668209881108>",
+    shaders: "<:shaders:804934728225914930>",
+    weapons: "<:weapons:804934767320498176>",
+};
