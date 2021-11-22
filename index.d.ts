@@ -53,6 +53,11 @@ export declare const legendaryLostSectors: {
         top: string;
     };
 };
+export declare const championModifiers: {
+    unstoppable: string;
+    barrier: string;
+    overload: string;
+};
 export declare const championTypes: {
     unstoppable: string;
     barrier: string;

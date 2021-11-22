@@ -107,10 +107,15 @@ export const legendaryLostSectors = {
         top: "<:ls_legend_top:815586865846419506>",
     },
 };
+export const championModifiers = {
+    unstoppable: "<:unstoppable_champions:815932392186314792>",
+    barrier: "<:barrier_champions:815932405759868949>",
+    overload: "<:overload_champions:815932420079091743>",
+};
 export const championTypes = {
-    unstoppable: "<:unstoppable:815932392186314792>",
-    barrier: "<:barrier:815932405759868949>",
-    overload: "<:overload:815932420079091743>",
+    unstoppable: "<:unstoppable:912198632592261172>",
+    barrier: "<:barrier:912198632768405514>",
+    overload: "<:overload:912198632831332372>",
 };
 export const armorSlots = {
     helmet: "<:helmet:811020954901282846>",
