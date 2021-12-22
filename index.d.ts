@@ -1,4 +1,4 @@
-import { DamageType, DestinyClass } from "bungie-api-ts/destiny2/interfaces";
+import { DamageType, DestinyClass, DestinyEnergyType } from "bungie-api-ts/destiny2/interfaces";
 export declare const loreBooksByHash: Record<string | number, string>;
 export declare const eververseCategoryBanners: {
     Ornaments: string;
@@ -82,6 +82,7 @@ export declare const armorSlotsByBucketHash: Record<string | number, string>;
 export declare const statsByEnDisplayName: Record<string, string>;
 export declare const statsByHash: Record<string | number, string>;
 export declare const elementsByDamageType: Record<DamageType, string>;
+export declare const elementsByEnergyType: Record<DestinyEnergyType, string>;
 export declare const classesByDestinyClass: Record<DestinyClass, string>;
 export declare const itemTypes: {
     armor: string;

@@ -164,6 +164,15 @@ export const elementsByDamageType = {
     [5 /* Raid */]: "",
     [6 /* Stasis */]: elementsByName.stasis,
 };
+export const elementsByEnergyType = {
+    [0 /* Any */]: "",
+    [1 /* Arc */]: elementsByName.arc,
+    [2 /* Thermal */]: elementsByName.solar,
+    [3 /* Void */]: elementsByName.void,
+    [4 /* Ghost */]: "",
+    [5 /* Subclass */]: "",
+    [6 /* Stasis */]: elementsByName.stasis,
+};
 export const classesByDestinyClass = {
     [3 /* Unknown */]: "❔",
     [0 /* Titan */]: classesByName.titan,

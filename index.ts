@@ -1,4 +1,8 @@
-import { DamageType, DestinyClass } from "bungie-api-ts/destiny2/interfaces";
+import {
+  DamageType,
+  DestinyClass,
+  DestinyEnergyType,
+} from "bungie-api-ts/destiny2/interfaces";
 
 export const loreBooksByHash: Record<string | number, string> = {
   2637550529: "<:ADriftersGambit:804831703456546817>",
@@ -180,6 +184,16 @@ export const elementsByDamageType: Record<DamageType, string> = {
   [DamageType.Void]: elementsByName.void,
   [DamageType.Raid]: "",
   [DamageType.Stasis]: elementsByName.stasis,
+};
+
+export const elementsByEnergyType: Record<DestinyEnergyType, string> = {
+  [DestinyEnergyType.Any]: "",
+  [DestinyEnergyType.Arc]: elementsByName.arc,
+  [DestinyEnergyType.Thermal]: elementsByName.solar,
+  [DestinyEnergyType.Void]: elementsByName.void,
+  [DestinyEnergyType.Ghost]: "",
+  [DestinyEnergyType.Subclass]: "",
+  [DestinyEnergyType.Stasis]: elementsByName.stasis,
 };
 
 export const classesByDestinyClass: Record<DestinyClass, string> = {
