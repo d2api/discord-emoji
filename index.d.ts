@@ -42,6 +42,7 @@ export declare const elementsByName: {
     solar: string;
     void: string;
     stasis: string;
+    strand: string;
 };
 export declare const legendaryLostSectors: {
     Master: {

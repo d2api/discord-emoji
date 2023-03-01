@@ -1,8 +1,4 @@
-import {
-  DamageType,
-  DestinyClass,
-  DestinyEnergyType,
-} from "bungie-api-ts/destiny2/interfaces";
+import { DamageType, DestinyClass, DestinyEnergyType } from "bungie-api-ts/destiny2/interfaces";
 
 export const loreBooksByHash: Record<string | number, string> = {
   2637550529: "<:ADriftersGambit:804831703456546817>",
@@ -66,8 +62,7 @@ export const eververseCategoryBanners = {
   Shaders: "<:Shaders1:752284699879276604><:Shaders2:752284712281833517>",
   Emotes: "<:Emotes1:752284761086754826><:Emotes2:752284771224125602>",
   Effects: "<:Effects1:752284940124815380><:Effects2:752284955857387623>",
-  GhostShells:
-    "<:GhostShells1:752285102847033396><:GhostShells2:752285124019879946>",
+  GhostShells: "<:GhostShells1:752285102847033396><:GhostShells2:752285124019879946>",
   Vehicles: "<:Vehicles1:752285229292716052><:Vehicles2:752285242102120549>",
 };
 
@@ -108,6 +103,7 @@ export const elementsByName = {
   solar: "<:solar:798669324101353503>",
   void: "<:void:798669492124254230>",
   stasis: "<:stasis:798669578330832928>",
+  strand: "<:strand:1080599049817837628>",
 };
 
 export const legendaryLostSectors = {
@@ -184,6 +180,7 @@ export const elementsByDamageType: Record<DamageType, string> = {
   [DamageType.Void]: elementsByName.void,
   [DamageType.Raid]: "",
   [DamageType.Stasis]: elementsByName.stasis,
+  [DamageType.Strand]: elementsByName.strand,
 };
 
 export const elementsByEnergyType: Record<DestinyEnergyType, string> = {

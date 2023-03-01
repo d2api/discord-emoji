@@ -12,6 +12,6 @@
     "typescript": "^4.4.4"
   },
   "peerDependencies": {
-    "bungie-api-ts": "^4.11.0"
+    "bungie-api-ts": "^4.22.2"
   }
 }

@@ -96,6 +96,7 @@ export const elementsByName = {
     solar: "<:solar:798669324101353503>",
     void: "<:void:798669492124254230>",
     stasis: "<:stasis:798669578330832928>",
+    strand: "<:strand:1080599049817837628>",
 };
 export const legendaryLostSectors = {
     Master: {
@@ -163,6 +164,7 @@ export const elementsByDamageType = {
     [4 /* Void */]: elementsByName.void,
     [5 /* Raid */]: "",
     [6 /* Stasis */]: elementsByName.stasis,
+    [7 /* Strand */]: elementsByName.strand,
 };
 export const elementsByEnergyType = {
     [0 /* Any */]: "",
